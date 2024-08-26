@@ -1,0 +1,84 @@
+
+.header{
+    position:"relative";
+    background-color: $main-color;
+    // display: none;
+    height: 100vh;
+    width: 100%;
+// background-color: "green";
+// min-height: 50vh;
+}
+
+
+.custom-shape-divider-bottom-1712572400 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+    transform: rotate(180deg);
+    background-image: url("https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.custom-shape-divider-bottom-1712572400 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 96px;
+    background-color: $main-color;
+}
+
+.custom-shape-divider-bottom-1712572400 .shape-fill {
+    fill: white;
+
+}
+
+.navigation{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+
+    &__item{
+        list-style: none;
+        font-size: 1.4rem;
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 1rem;
+        display: inline-block;
+    }
+    &__link{
+        text-decoration: none;
+        font-family: "Inter";
+        // color: white;
+        color: inherit;
+    }
+    &__nav{
+        display: inline-block;
+        background-color: red;
+    }
+    // &__logo{
+    //     flex-basis: 50%;
+    //     background-color: red;
+    // }
+    // &__wrapper:nth-child(2) {
+    // background-color: red;  
+    // }
+
+    // &__wrapper:nth-child(3) {
+    // flex-basis: 20%;
+    // background-color: green;
+    // }
+
+}
+
+// MAIN
+
+
+
+
